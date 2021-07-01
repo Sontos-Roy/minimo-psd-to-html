@@ -1,0 +1,280 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* global css start  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+.container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+/* global css end  */
+
+/* header section start  */
+header{
+    padding: 50px 0;
+    /* border: 1px solid red; */
+}
+.logo{
+    float: left;
+    width: 13%;
+    /* border: 1px solid black; */
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+
+
+.menu{
+    float: right;
+    width: 65%;
+    /* border: 1px solid red; */
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li .nav-item{
+    margin: 0 50px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu ul li:last-child .nav-item{
+    margin: 0 0 0 50px;
+}
+.more{
+    display: none;
+    float: right;
+}
+/* header section end  */
+/* header responsive start */
+@media screen and (max-width: 1165px) {
+    .menu{
+        display: none;
+    }
+    .more{
+        display: block;
+    }
+}
+/* header responsive end */
+
+/* banner section start  */
+.banner{
+    width: 100%;
+    height: auto;
+}
+.banner img{
+    width: 100%;
+}
+/* banner section end  */
+/* weekend section start  */
+#weekend{
+    margin-top: 100px;
+}
+.weekend > .weekend-sub-heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+.weekend > .weekend-heading{
+    font-size: 30px;
+    font-weight: normal;
+}
+.weekend > .desc{
+    font-size: 14px;
+    line-height: 28px;
+}
+.weekend > .comment{
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+/* weekend section end  */
+
+/* blogs section start  */
+#blogs{
+}
+.blog-row{
+    width: 100%;
+    overflow: hidden;
+}
+.blog-row:last-child{
+    margin-top: 130px;
+}
+.blog{
+    margin-bottom: 130px;
+    width: 45%;
+    float: left;
+}
+.blog img{
+    width: 100%;
+    max-height: 250px;
+}
+.blog1{
+
+}
+.blog2{
+    float: right;
+}
+.blog3{
+    float: left;
+}
+.blog4{
+    float: right;
+}
+.blog5{
+    float: left;
+}
+.blog5 img{
+
+}
+.blog6{
+    float: right;
+}
+.blog > .blog-sub-heading{
+    padding-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+.blog > .blog-heading{
+    font-size: 30px;
+    font-weight: normal;
+}
+.blog > .desc{
+    font-size: 14px;
+    line-height: 28px;
+}
+/* blogs section end  */
+
+/* newsletter section start  */
+#newsletter{
+    width: 100%;
+    background: #f0f0f0;
+}
+.newsletter{
+    width: 40%;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+}
+.newsletter .newsletter-heading{
+    padding-top: 70px;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+.newsletter-form{
+    padding-top: 70px;
+    padding-bottom: 75px;
+    width: 100%;
+    margin: 0 auto;
+}
+.newsletter .newsletter-form .newsletter-input{
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+.newsletter-form .newsletter-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.newsletter-form .newsletter-input::-moz-placeholder { /* Firefox 19+ */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.newsletter-form .newsletter-input:-ms-input-placeholder { /* IE 10+ */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.newsletter-form .newsletter-input:-moz-placeholder { /* Firefox 18- */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.newsletter-form button{
+    width: 15%;
+    overflow: hidden;
+    border: none;
+    margin-left: -11%;
+    margin-top: 10px;
+
+}
+/* newsletter section end  */
+
+/* section button start  */
+.button-box{
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    /* border: 1px solid red; */
+}
+.button-box button{
+    width: 80%;
+    border: 1px solid gray;
+    background: transparent;
+    padding: 20px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+/* section button end  */
+
+/* footer section start  */
+footer{
+    width: 100%;
+    background: #f0f0f0;
+    height: 100px;
+}
+.footer-left{
+    float: left;
+    margin-top: 30px;
+}
+.footer-left ul{
+    list-style: none;
+}
+.footer-left ul li{
+    float: left;
+}
+.footer-left ul li a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-right{
+    float: right;
+    margin-top: 30px;
+}
+.footer-right ul{
+    float: right;
+    list-style: none;
+}
+.footer-right ul li{
+    float: left;
+}
+.footer-right ul li a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+/* footer section end  */
